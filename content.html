@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    body {
+        background-image: url('https://image.shutterstock.com/image-photo/tv-led-mock-screen-smart-260nw-2040768557.jpg');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .nav-box {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+    a {
+        display: inline-block;
+        font-size: 24px;
+        text-decoration: none;
+        color: #333;
+        background-color: #f2f2f2;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 10px;
+        transition: all 0.3s;
+    }
+    a:hover {
+        background-color: #ddd;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .nav-box img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        animation: rotate 5s infinite linear;
+    }
+    @keyframes rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
+</head>
+<body>
+<div class="nav-box">
+    <a href="oled.html">
+        <img src="https://www.shutterstock.com/image-photo/tv-led-mock-screen-smart-260nw-2040768557.jpg" alt="OLED">
+        OLED
+    </a>
+    <a href="solar.html">
+        <img src="https://www.shutterstock.com/image-photo/solar-panel-forest-260nw-385399132.jpg" alt="Solar">
+        Solar
+    </a>
+</div>
+</body>
+</html>
